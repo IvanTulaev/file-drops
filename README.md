@@ -2,11 +2,15 @@
 
 A simple in-browser file drop utility.
 
+**Fork of original [repo](https://github.com/nikku/file-drops)**
+
+## Differences with original repository
+- work in safari
 
 ## Usage
 
 ```javascript
-import fileDrop from 'file-drops';
+import fileDrop from 'file-drops-safary-compatible';
 
 const element = document.querySelector('#container');
 

@@ -1,7 +1,7 @@
 {
-  "name": "file-drops",
-  "version": "0.5.0",
-  "description": "A simple in-browser file drop utility",
+  "name": "file-drops-safary-compatible",
+  "version": "0.6.1",
+  "description": "A simple in-browser file drop utility compatible with Safari",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/file-drops.umd.js",
@@ -14,16 +14,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nikku/file-drops.git"
+    "url": "git+ssh://git@github.com/IvanTulaev/file-drops.git"
   },
   "keywords": [
     "browser",
-    "file-drop"
+    "file-drop",
+    "safari compatible"
   ],
-  "author": {
-    "name": "Nico Rehwaldt",
-    "url": "https://github.com/nikku"
-  },
+  "contributors": [
+    {
+      "name": "Ivan Tulaev",
+      "url": "https://github.com/IvanTulaev"
+    },
+    {
+      "name": "Nico Rehwaldt",
+      "url": "https://github.com/nikku"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.3",
